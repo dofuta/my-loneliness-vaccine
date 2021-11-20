@@ -21,12 +21,12 @@
           <p>189 people loved this recommendation</p>
         </div>
         <div class="order">
-          <NuxtLink :to="item.amazon_link">
+          <a :href="item.amazon_link" target="_blank" rel="noopner">
             <img :src="require('~/assets/amazon.png')" alt="">
-          </NuxtLink>
-           <NuxtLink :to="item.discord_link">
+          </a>
+           <a :href="item.discord_link" target="_blank" rel="noopner">
             <img :src="require('~/assets/discord_button.png')" alt="">
-          </NuxtLink>
+          </a>
         </div>
       </b-col>
     </b-row>

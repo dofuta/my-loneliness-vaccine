@@ -23,10 +23,6 @@
 <script>
 export default {
   props: {
-    id: {
-      type: String,
-      required: true
-    },
     item: {
       type: Object,   // 型がObjectである
       required: true  // 必須のプロパティである

@@ -3,6 +3,9 @@
   <Navbar/>
   <b-container>
     <h1 class="mt-5">Home</h1>
+    <p>
+      Let's meet someones Loneliness Vaccines here.
+    </p>
     <b-row class="text-center">
       <Item v-for="(item) in items" :key="item.id" :item="item"/>
     </b-row>
