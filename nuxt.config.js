@@ -42,5 +42,25 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-  }
+  },
+  head: {
+    htmlAttrs: {
+      lang: 'ja',
+      prefix: 'og: http://ogp.me/ns#'
+    },
+    title: process.env.npm_package_name || '',
+    meta: [
+      { charset: 'utf-8' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { hid: 'description', name: 'description', content: process.env.npm_package_description || '' },
+      { hid: 'og:site_name', property: 'og:site_name', content: 'MyLonelinessVaccine' },
+      { hid: 'og:type', property: 'og:type', content: 'website' },
+      { hid: 'og:url', property: 'og:url', content: 'https://my-loneliness-vaccine.com' },
+      { hid: 'og:title', property: 'og:title', content: 'MyLonelinessVaccine' },
+      { hid: 'og:description', property: 'og:description', content: 'Meet someones loneliness vaccine here!' },
+      { hid: 'og:image', property: 'og:image', content: 'https://my-loneliness-vaccine.com/ogp.jpg' },
+      { name: 'twitter:card', content: 'summary' },　//twitterの画像サイズ
+    ],
+  },
+
 }

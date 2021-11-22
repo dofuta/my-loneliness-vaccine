@@ -1,7 +1,9 @@
 <template>
 <div>
   <b-navbar toggleable="lg" variant="white">
-    <b-navbar-brand href="/">#MyLonelinessVaccine</b-navbar-brand>
+    <b-navbar-brand href="/">
+      <img :src="require('~/assets/logo.png')" alt="" class="nuxt-logo">
+    </b-navbar-brand>
 
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
@@ -42,6 +44,6 @@
 
 <style>
 .nuxt-logo {
-  height: 180px;
+  width: 320px;
 }
 </style>
