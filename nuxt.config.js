@@ -58,7 +58,7 @@ export default {
       { hid: 'og:url', property: 'og:url', content: 'https://my-loneliness-vaccine.com' },
       { hid: 'og:title', property: 'og:title', content: 'MyLonelinessVaccine' },
       { hid: 'og:description', property: 'og:description', content: 'Meet someones loneliness vaccine here!' },
-      { hid: 'og:image', property: 'og:image', content: 'https://my-loneliness-vaccine.com/ogp.jpg' },
+      { hid: 'og:image', property: 'og:image', content: 'https://my-loneliness-vaccine.com/ogp.png' },
       { name: 'twitter:card', content: 'summary' },　//twitterの画像サイズ
     ],
   },
