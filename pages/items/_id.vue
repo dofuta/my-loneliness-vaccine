@@ -54,8 +54,12 @@ export default {
     &__main {
       border-radius: 5px;
       background-color: rgb(241, 241, 241);
+      align-items: center;
+      display: flex;
+      justify-content: center;
       img {
-        width: 100%;
+          max-height: 400px;
+          max-width: 80%;
       }
     }
     &__desc {

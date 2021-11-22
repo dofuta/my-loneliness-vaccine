@@ -53,14 +53,20 @@ export default {
         }
       }
       .image {
+        min-height: 350px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
         img {
-            width: 100%;
+          max-height: 300px;
+          max-width: 80%;
         }
       }
       .brand {
         text-align: right;
         img {
-          height: 25px;
+          max-height: 25px;
+          max-width: 100px;
         }
       }
     }
